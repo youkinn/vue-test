@@ -4,7 +4,7 @@
  * 发布者发布数据，订阅者接收并处理数据
  * 
  * 这里以报社为例：
- * 报社发布并投递报纸，用户接收报纸然后进行处理（比如阅读，比如直接扔掉）
+ * 报社发布并投递报纸，用户接收报纸然后进行处理（或者阅读，或者直接扔掉，或者跟人分享）
  * 
  */
 
@@ -21,7 +21,7 @@ Publisher.prototype.deliver = function (data) {
 };
 
 // 订阅者
-function Subscriber() { }
+function Subscriber() {}
 
 // 订阅
 Subscriber.prototype.subscribe = function (publisher, handle) {
@@ -38,30 +38,48 @@ Subscriber.prototype.unSubscribe = function (publisher) {
   publisher.subs = result;
 };
 
-// 纽约时报（发行方）
+// 纽约时报（发行方、出版社）
 var NewYorkTimes = new Publisher();
 
 // 三个订阅者
-var p1 = new Subscriber();
-var p2 = new Subscriber();
-var p3 = new Subscriber();
+var people1 = new Subscriber();
+var people2 = new Subscriber();
+var people3 = new Subscriber();
 
-p1.subscribe(NewYorkTimes, function (data) {
-  console.log('p1 handle:' + data);
+people1.subscribe(NewYorkTimes, function (data) {
+  console.log('people1看了报纸');
 });
-p2.subscribe(NewYorkTimes, function (data) {
-  console.log('p2 handle:' + data);
+people2.subscribe(NewYorkTimes, function (data) {
+  console.log('people2看了报纸后扔掉了');
 });
-p3.subscribe(NewYorkTimes, function (data) {
-  console.log('p3 handle:' + data);
+people3.subscribe(NewYorkTimes, function (data) {
+  console.log('people3看完后跟人分享了');
 });
 
-
+// 报社第一次投递
 NewYorkTimes.deliver('hello.');
 
-p2.unSubscribe(NewYorkTimes);
+console.log('--------------------------');
 
+// 退订
+people2.unSubscribe(NewYorkTimes);
 
+// 报社第二次投递
 NewYorkTimes.deliver('hello2.');
 
 
+
+
+
+
+/**
+ 考虑下如果
+
+ {
+  a: 1,
+  b: 2,
+  c: 3,
+}
+
+
+ */

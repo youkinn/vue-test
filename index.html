@@ -6,25 +6,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <script src="./node_modules/vue/dist/vue.js"></script>
-  <script src="./ob-vue.js"></script>
+  <script src="./vue.js"></script>
+  <!--<script src="./ob-vue.js"></script>-->
 </head>
 
 <body>
   <div id="app">
-    {{ message }} | {{ name }}
-    <br>
+    {{ message }}
     <input v-model="message" type="text">
-    <br>
-    <input v-model="name" type="text">
   </div>
   <script>
-    // debugger;
+    debugger;
     var app = new Vue({
       el: '#app',
       data: {
         message: 'Hello Vue!',
-        name: 'yex',
       }
     })
   </script>

@@ -2,6 +2,8 @@
 
 当我们追踪到了数据变化后，
 
+template
+
 <div id="app">
     hello.
     <input name="message" type="text" value="hello." va>
@@ -14,22 +16,9 @@
     <input name="message" type="text" value="hello world." va>
 </div>
 
-*/
 
-function VNode(
-    tag,
-    attrs,
-    children,
-    text,
-    value
-) {
-    this.tag = tag;
-    this.attrs = attrs;
-    this.children = children;
-    this.text = text;
-    this.value = value;
-}
 
+VNode
 
 var oldVNode = new VNode('div', {
     id: 'app'
@@ -53,12 +42,21 @@ var newVNode = new VNode('div', {
     }, [])
 ]);
 
-
-console.log(app);
-
-console.log(app2);
+*/
 
 
+// 为了生成虚拟dom我需要一个render函数
+// 接受模板，并将其编译成js对象
+function render(template) {
+    // TODO
+}
 
 // 实现diff算法比较差异
-// diff(oldVNode, newVNode);
+function diff(oldVNode, newVNode) {
+    // TODO
+};
+
+// 更新页面
+function update(diff) {
+    // TODO
+}

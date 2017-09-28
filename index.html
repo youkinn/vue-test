@@ -7,22 +7,24 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <script src="./vue.js"></script>
-  <!--<script src="./ob-vue.js"></script>-->
 </head>
 
 <body>
-  <div id="app">
-    {{ message }}
-    <input v-model="message" type="text">
-  </div>
+  <div id="app"></div>
   <script>
     debugger;
-    var app = new Vue({
-      el: '#app',
+    var vm = new Vue({
       data: {
         message: 'Hello Vue!',
+      },
+      render: function (createElement) {
+        var vNode = createElement('h1', this.message);
+        console.log(vNode);
+        return vNode;
       }
-    })
+    }).$mount('#app');
+    console.log(vm.$render);
+    vm.message = 'hello world.';
   </script>
 </body>
 

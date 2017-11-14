@@ -1,0 +1,15 @@
+/**
+ *
+ * @url /getPackCode
+ *说明 count需要的淘豆数量，，领取时不要淘豆，count应当为0，不可没有
+ * 参数说明：
+ * id: 礼包id
+ */
+{
+  "code": 10000,
+  "msg": "你已经兑换过咖喱宝",
+  "result": {
+    "count":110,
+    "number": "012345eefedkdkskddkfeef"
+  }
+}

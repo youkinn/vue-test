@@ -1,0 +1,34 @@
+/**
+ * [淘游助手] 小游戏排名
+ *
+ * @url /getPeriods
+ *
+ * 参数说明：
+ *
+ * test
+ */
+{
+  "code": 10000,
+  "result": {
+      "cDate": "1502690471",
+      "endTime": "1502693940",
+      "gid": "20",
+      "hotCenter": "1",
+      "hotIndex": "1",
+      "id": "16608",
+      "imgUrl": "http://image.lly800.com/webgame/20170121/1484977809711350.jpg",
+      "lastTime": 0,
+      "leftMoney": "0",
+      "luckUID": "97566",
+      "mDate": "1502690471",
+      "maxPrize": "400",
+      "number": "1708142036",
+      "pre_pid": "16603",
+      "renewal": "1",
+      "startTime": "1502690400",
+      "status": "9",
+      "title": "小黄人",
+      "totalMoney": "0",
+      "type": "2"
+    },
+}

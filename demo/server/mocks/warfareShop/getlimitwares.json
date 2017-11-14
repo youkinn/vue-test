@@ -1,0 +1,52 @@
+/**
+ * [淘游助手] 限时商品列表接口
+ * 需要分页
+ *
+ * @url /getlimitwares
+ *
+ * 参数说明：
+ *
+ * result: 游戏列表
+ * id: 游戏ID
+ * name: 游戏名
+ * src: 缩略图
+ * num: 多少人在玩
+ * msg: 一句话简介
+ */
+{
+  "code": 10000,
+  "result|5": [
+    {
+      "cDate": "1493967932",
+      "content": "<p>钻石*200 培养石*200 进化石*200</p><p><br/></p>",
+      "endTime": "@natural( 1505284291, 1525503862 )",
+      "gameID": "1239",
+      "gameName": "妖怪宝可萌",
+      "hot": "0",
+      "id": "14080",
+      "image": "@image(314x167)",
+      "photograph": "@image(120x120)",
+      "isPublish": "1",
+      "isgame": "1",
+      "lastNumber": "13",
+      "mDate": "1494241716",
+      "name": "@cparagraph( 2, 20 )",
+      "new": "1",
+      "rankHot": "0",
+      "rankNew": "3",
+      "resourceID": "1",
+      "sort": "0",
+      "sourceName": "拓美",
+      "startTime": "1493967861",
+      "taoDou": "@natural( 1, 10000 )",
+      "totalNumber": "16",
+      "type": "2",
+      "typeID": "9",
+      "typeName": "H5",
+      "uID": 0,
+      "usedNumber": "3",
+      "weburl": "",
+      "genre": 0
+    }
+  ]
+}

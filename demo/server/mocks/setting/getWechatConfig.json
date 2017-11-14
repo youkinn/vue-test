@@ -1,0 +1,17 @@
+/**
+ * 淘游微信分享参数配置
+ *
+ * @url /getWechatConfig
+ *
+ */
+{
+  "code": 10000,
+  "msg": "",
+  "result": {
+    "url": "http://pre-interface.lly800.com/Api/Weixin/get_share?mID=8&show=1",
+    "appId": "wx6bbcb84e53f5d1a3",
+    "nonceStr": "wMT3AKJWEs101Wq3",
+    "timestamp": "1506159013000",
+    "signature": "926d2b49035bc9eca7e76507e85b27fbff8ac4b5"
+  }
+}

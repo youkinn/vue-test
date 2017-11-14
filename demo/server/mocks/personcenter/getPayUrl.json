@@ -1,0 +1,16 @@
+/**
+ * [淘游助手] 获取淘币充值支付地址
+ *
+ * @url /getPayUrl
+ *
+ * 参数说明：
+ *
+ */
+
+{
+  "code": 10000,
+  "msg": "",
+  "result": {
+    "payurl": "https://mapi.alipay.com/gateway.do?_input_charset=utf-8&app_pay=Y&goodsType=5&it_b_pay=10¬ify_url=http%3A%2F%2Fpre-interface.lly800.com%2FOrder%2FPayCallback%2Falipay_notify_url%2F&out_trade_no=879044530884&partner=2088421499757105&payment_type=1&return_url=http%3A%2F%2Fpre-interface.lly800.com%2FOrder%2FIndex%2Ftourl%3Furl%3Dhttp%3A%2F%2Fpre.lly800.com%2F%23%2Ftao-you%2Fpay%2Freturn%2F30884&seller_id=2088421499757105&service=alipay.wap.create.direct.pay.by.user&show_url=http%3A%2F%2Fpre.lly800.com%2F%23%2Ftao-you%2Fpersonal-center%2Fpay-for-taobi&subject=%E6%B7%98%E6%B8%B8%E5%8A%A9%E6%89%8B%E8%B4%A7%E5%B8%81-%E6%B7%98%E5%B8%81&total_fee=20.00&sign=5e6b0a8bc84247e35d8c7281b30aa12e&sign_type=MD5"
+  }
+}

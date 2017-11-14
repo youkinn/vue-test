@@ -1,0 +1,17 @@
+/**
+ * [淘游助手] 查询淘币充值结果
+ *
+ * @url /getOrderPayInfo
+ *
+ * 参数说明：
+ *
+ */
+
+{
+  "code": 10000,
+  "msg": "",
+  "result": {
+    "payStatus" :5,
+    "orderName": "@string( 2,10 )"
+  }
+}

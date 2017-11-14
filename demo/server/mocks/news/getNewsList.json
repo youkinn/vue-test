@@ -1,0 +1,74 @@
+/**
+ * [淘游助手] 资讯列表接口
+ *
+ * @url /getNewsList
+ *
+ */
+{
+  "code": 10000,
+  "count": "438",
+  "result|10": [
+    {
+      "id": "@natural(10000, 99999)",
+      "type": "1",
+      "title|0-10": "新闻标题",
+      "desc|0-25": "简要描述",
+      "author": "@ctitle(2, 10)",
+      "showType": "1",
+      "fromType": "1",
+      "picPath": [
+        "@image(690x224)"
+      ],
+      "source|1-5": "来源",
+      "publishTime": "@datetime"
+    },
+    {
+      "id": "@natural(10000, 99999)",
+      "type": "1",
+      "title|0-10": "新闻标题",
+      "desc|0-25": "简要描述",
+      "author": "@ctitle(2, 10)",
+      "showType": "2",
+      "fromType": "1",
+      "picPath": [
+        "@image(216x140)"
+      ],
+      "source|1-5": "来源",
+      "publishTime": "@datetime"
+    },
+    {
+      "id": "@natural(10000, 99999)",
+      "type": "1",
+      "title|0-10": "新闻标题",
+      "desc|0-25": "简要描述",
+      "author": "@ctitle(2, 10)",
+      "showType": "3",
+      "fromType": "1",
+      "picPath": [],
+      "source|1-5": "来源",
+      "publishTime": "@datetime"
+    },
+    {
+      "id": "@natural(10000, 99999)",
+      "type": "1",
+      "title|0-10": "新闻标题",
+      "desc|0-25": "简要描述",
+      "author": "@ctitle(2, 10)",
+      "showType": "4",
+      "fromType": "1",
+      "picPath": [],
+      "picPathList": [
+        "@image(210x180)",
+        "@image(210x180)",
+        "@image(210x180)",
+        "@image(210x180)",
+        "@image(210x180)",
+        "@image(210x180)",
+        "@image(210x180)",
+        "@image(210x180)"
+      ],
+      "source|1-5": "来源",
+      "publishTime": "@datetime"
+    }
+  ]
+}

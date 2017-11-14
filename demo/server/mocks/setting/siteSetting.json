@@ -1,0 +1,16 @@
+/**
+ * 淘游网站共通设定
+ *
+ * @url /getSiteSetting
+ *
+ * 参数说明：
+ * headerFlag: 是否显示页面头部，1:显示、0:不显示
+ * outFlag：个人中心首页 是否显示退出功能
+ */
+{
+  "code": 10000,
+  "result": {
+    "headFlag": 1,
+    "outFlag": 1
+  }
+}

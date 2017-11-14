@@ -1,0 +1,28 @@
+/**
+ * [淘游助手] 用户信息
+ *
+ * @url /getUserInfo
+ *
+ * 参数说明：
+ *
+ */
+{
+  "code": 10000,
+  "msg": "",
+  "result": {
+    "mID": "8",
+    "avatar": "http://image.lly800.com/user/avatar.png",
+    "isCanUpdateName": 1,
+    "username": "youkinn",
+    "userId": "75438",
+    "bindPhone": 18867779248,
+    "isShowSoreExchange": 0,
+    "alterMoney": 998,
+    "taoBi": "0",
+    "taoDou": 40800,
+    "msg": { "platForm_0": 0, "platForm_1": 30 },
+    "day_taodou": 400,
+    "expiring": "0",
+    "tipsStatus|1": [1, 0, 0, 0, 0, 0, 0, 0, 0]
+  }
+}

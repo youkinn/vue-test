@@ -1,0 +1,13 @@
+/**
+ * [淘游助手] 游戏任务
+ *
+ * @url /getShowTimeTask
+ *
+ * 参数说明：
+ *
+ */
+
+{
+  "code": 10000,
+  "result": "@natural(0, 2)"
+}

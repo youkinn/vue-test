@@ -1,0 +1,18 @@
+/**
+ * [淘游助手] 优惠券信息
+ *
+ * @url /packsExchange
+ *
+ * 参数说明：
+ *
+ * test
+ */
+{
+  "code": 10000,
+  "msg": "兑换成功",
+  "genre": 1,
+  "result": {
+    "count": 0,
+    "number": "012345eefedkdkskddkfeef"
+  }
+}

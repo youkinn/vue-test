@@ -1,0 +1,30 @@
+/**
+ *
+ * @url /openServer
+ *
+ */
+{
+  "code": 10000,
+  "msg": "",
+  "result|5": [
+    {
+      "id": "1705",
+      "gameID": "27653",
+      "serviceName": "@cparagraph( 2, 20 )",
+      "openTime": "@natural( 1505284291, 1525503862 )",
+      "status": "1",
+      "cDate": "@natural( 1505284291, 1525503862 )",
+      "mDate": "@natural( 1505284291, 1525503862 )",
+      "name": "@cparagraph( 2, 20 )",
+      "viewNumber": "938",
+      "abstract": "@cparagraph( 2, 20 )",
+      "fileSize": "0",
+      "categoryID": "23",
+      "field": "1",
+      "direction": "1",
+      "category": "\u89d2\u8272\u626e\u6f14",
+      "gameIcon": "@image(45x45)",
+      "gameUrl": "@image(45x45)"
+    }
+  ]
+}

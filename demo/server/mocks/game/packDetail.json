@@ -1,0 +1,47 @@
+/**
+ * [淘游助手] 游戏中心游戏详情
+ *
+ * @url /getPackDetail
+ *
+ * 参数说明：
+ *
+ */
+
+{
+  "code": 10000,
+  "result": [{
+    "cDate": "1496301010",
+    "content": "<p>素粽包 &nbsp; &nbsp;内容 &nbsp; 橙装碎片*30，法宝进阶丹*10，宝石碎片*10，经脉丹*10，强化石*200 &nbsp; 价值：50</p> <p>素粽包 &nbsp; &nbsp;内容 &nbsp; 橙装碎片*30，法宝进阶丹*10，宝石碎片*10，经脉丹*10，强化石*200 &nbsp; 价值：50</p>",
+    "endTime": "1527836940",
+    "gameID": "27669",
+    "gameName": "@ctitle(4, 10)",
+    "genre": "1",
+    "hot": "0",
+    "id": "14106",
+    "image": "@image(140x140)",
+    "isPublish": "1",
+    "isgame": "1",
+    "lastNumber": "50",
+    "mDate": "1496301010",
+    "name": "三生三世素粽包",
+    "new": "1",
+    "photograph": "",
+    "picture": "",
+    "rankHot": "0",
+    "rankNew": null,
+    "remark": "<p>兑换规则：主界面点击福利大厅——点击激活码——输入激活码——点击兑换</p><p><br/></p><p>使用期限：1年</p><p><br/></p> <p>兑换规则：主界面点击福利大厅——点击激活码——输入激活码——点击兑换</p><p><br/></p><p>使用期限：1年</p><p><br/></p>",
+    "resourceID": "1",
+    "sort": "0",
+    "sourceName": "拓美",
+    "startTime": "1496300938",
+    "taoDou": "@natural(0,5000)",
+    "totalNumber": "100",
+    "type": "2",
+    "typeID": "9",
+    "typeName": "H5",
+    "uID": 0,
+    "usedNumber": "10",
+    "weburl": ""
+  }]
+}
+

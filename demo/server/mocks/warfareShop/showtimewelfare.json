@@ -1,0 +1,14 @@
+/**
+ * [淘游助手] 是否展示限时优惠任务
+ *
+ * @url /showTimeWelfare
+ *
+ * 参数说明：
+ *
+ * test
+ */
+{
+  "code": 10000,
+  "status": true,
+  "ischeck": true
+}

@@ -1,0 +1,25 @@
+/**
+ * [淘游助手] 优惠券信息
+ *
+ * @url /getvouchers
+ *
+ * 参数说明：
+ *
+ * test
+ */
+{
+  "code": 10000,
+  "result|5": [
+    {
+      "endTime": "@natural( 1505284291, 1525503862 )",
+      "id": "46",
+      "last": "@natural( 1, 100 )",
+      "name": "8元优惠券（满58可用）",
+      "prize": "@natural( 1, 10000 )",
+      "reduceMoney": "8",
+      "remark": "58",
+      "startTime": "1485091803",
+      "tID": "27"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+/**
+ * [淘游助手] 游戏任务
+ *
+ * @url /getMyGift
+ *
+ * 参数说明：
+ *
+ */
+{
+  "code": 10000,
+  "count": "10",
+  "list|10": [
+    {
+      "image": "@image(120x120)",
+      "name": "@cparagraph( 2, 20 )",
+      "no": "@string(number,20,60)",
+      "field": 1,
+      "gameName": "三生三世",
+      "gameID": 123456,
+      "direction": 1,
+      "gameUrl":"http://pre-interface.lly800.com/Game/Index/to_game?gid=1211"
+    }
+  ]
+}

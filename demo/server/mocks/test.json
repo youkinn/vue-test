@@ -1,0 +1,30 @@
+/**
+ * [淘游助手] 任务列表数据接口
+ *
+ * @url /test
+ *
+ * 参数说明：
+ *
+ * test
+ */
+{
+  "code": 10000,
+  "count": "438",
+  "result|10": [
+    {
+      "id": "@natural(10000, 99999)",
+      "type": "1",
+      "title|0-10": "@ctitle",
+      "desc|0-25": "简要描述",
+      "author": "@ctitle(2, 10)",
+      "showType": "1",
+      "fromType": "1",
+      "picPath": [
+        "@image(690x224)"
+      ],
+      "source|1-5": "来源",
+      "publishTime": "@datetime"
+    }
+  ]
+}
+

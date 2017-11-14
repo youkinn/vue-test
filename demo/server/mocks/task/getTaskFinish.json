@@ -1,0 +1,17 @@
+/**
+ * [淘游助手] 任务完成提示接口
+ *
+ * @url /getTaskFinish
+ *
+ * 参数说明：
+ *
+ *
+ */
+{
+  "code": 10000,
+  "result": {
+    "title":"任务完成,获得奖励<span style='color:#ff0000'>1000</span>淘豆",
+    "status": false
+  }
+
+}

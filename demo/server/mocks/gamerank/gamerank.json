@@ -1,0 +1,24 @@
+/**
+ * [淘游助手] 小游戏排名
+ *
+ * @url /gameRank
+ *
+ * 参数说明：
+ *
+ * test
+ */
+{
+  "code": 10000,
+  "result|10": [
+    {
+      "name": "@string( 2,16 )",
+      "picPath": "http://image.lly800.com/user/avatar.png",
+      "prize": "@natural( 10, 100000 )",
+      "rank": 1,
+      "score": "26540",
+      "sid": "8506",
+      "time": "2017-08-14 14:07:23",
+      "userId": "97566"
+    }
+  ]
+}

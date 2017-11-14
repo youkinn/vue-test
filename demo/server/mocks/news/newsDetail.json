@@ -1,0 +1,46 @@
+/**
+ * [淘游助手] 游戏资讯详细详细接口
+ *
+ * @url /getNewsDetail
+ *
+ * 参数说明：
+ *
+ * id: 新闻ID
+ * title: 游戏名
+ * author: 作者or来源
+ * imgUrl: 图片地址
+ * content: 新闻内容
+ * publishTime: 发布时间
+ */
+
+{
+  "code|1": [10000],
+  "expire":0,
+  "isUsed":0,
+  "result": {
+    "id|+1": 1,
+    "title|2": "@ctitle",
+    "author": "@ctitle",
+    "imgUrl": "@image(120x120)",
+    "content|5": "@cparagraph <p><span>我是要分享的内容1</span></p> <p><span>我是要分享的内容2</span></p> <p><span>我是要分享的内容3</span></p><img src='@image(314x167)'>",
+    "publishTime": "@date('yyyy-mm-dd HH:mm')"
+  },
+  "vote":{
+    "Children":[
+      {"id": "1", "vid": "1", "note": "你是中国人吗", "number": "33", "cDate": "1499245318"},
+      {"id": "2", "vid": "1", "note": "你美国人吗？的分类收到了发来的发来的了", "number": "33", "cDate": "1499245318"},
+      {"id": "3", "vid": "1", "note": "你是英国人吗", "number": "33", "cDate": "1499245318", "is_user_check": "1000"},
+      {"id": "4", "vid": "1", "note": "你是日本人吗", "number": "1", "cDate": "1499245318"}
+    ],
+    "cDate": "1499245318",
+    "description": "现在的卡夫卡的卡的疯狂的开疯狂的开发啦啦啦啦",
+    "endTime": "1501430400",
+    "id": "1",
+    "mDate": null,
+    "startTime": "1498665600",
+    "title": "出校让对手看看客人？的罚是打开是肯定死快点开始卡开始看？",
+    "type": "0",
+    "uID": "33",
+    "count": 100
+  }
+}

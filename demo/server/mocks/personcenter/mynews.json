@@ -1,0 +1,23 @@
+/**
+ * [淘游助手] 我的消息
+ *
+ * @url /myNews
+ *
+ * 参数说明：
+ *
+ * test
+ */
+{
+  "code": 10000,
+  "result|10": [
+    {
+      "id": "@natural( 70000, 100000 )",
+      "lettertitle": "您通过完成竞技排名任务获得了200淘豆，点击查看",
+      "publishtime": "1502765941",
+      "status": "@natural( 0, 1 )",
+      // "url": "/tao-you/game-center/game-details/27701"
+      "url": "/tao-you/all-replies/39824/1082/1"
+      // "url": "/tao-you/welfare-shop/welfare"
+    }
+  ]
+}

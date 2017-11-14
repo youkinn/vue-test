@@ -1,0 +1,24 @@
+/**
+ * [淘游助手] 我的游戏
+ *
+ * @url /myGame
+ *
+ * 参数说明：
+ *
+ * test
+ */
+{
+  "code": 10000,
+  "result|10": [
+    {
+      "cDate": "@natural(1502878431, 1505290152)",
+      "downloadUrl": "http://h5cqz.menglegame.com/cqz/index_soeasy.html?channel=zmso&channelid=tuomeihuyu&zmcon=012f3bfecca397e3de2f77ba932e3acf",
+      "field": "1",
+      "gameID": "27682",
+      "gameName|1-5": "游戏名称",
+      "gameUrl": "http://interface.lly800.com/Game/Index/to_game?gid=27682",
+      "imgUrl": "@image(140x140)",
+      "intro": "官方正版授权，信仰之战一触即发"
+    }
+  ]
+}

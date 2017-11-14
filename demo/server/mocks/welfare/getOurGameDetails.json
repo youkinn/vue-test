@@ -1,0 +1,27 @@
+/**
+ * 我们自己小游戏的详情
+ *
+ * @url /getOurGameDetails
+ *
+ * 参数说明：不需要
+ *
+ */
+{
+  "code": 10000,
+  "msg": "",
+  "result": {
+    "gameID": "@natural(10, 20)",
+    "gameName": "@ctitle(4,8)",
+    "gameIntro": "@ctitle(10,100)",
+    "gameUrl": "tao-game/games/xzm?gid=23",
+    "gameIcon": "@image(70x70)",
+    "imgUrl|3-5": [
+      "@image(312x500)"
+    ],
+    "averageScore": "6.0",
+    "number": "@string(number,8, 10)",
+    "status": 1,
+    "opentime": "@natural(0, 1200)",
+    "playNumber": "1180"
+  }
+}

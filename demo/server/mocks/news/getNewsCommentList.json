@@ -1,0 +1,31 @@
+/**
+ * [淘游助手] 某条资讯全部评论
+ *
+ * @url /getNewsCommentList
+ *
+ * 参数说明：
+ *
+ * test
+ */
+{
+  "code": 10000,
+  "count": "@natural(0, 10)",
+  "result|0-10": [
+    {
+      "avatarPath": "@image(64x64)",
+      "content": "@sentence(5, 100)",
+      "id": "935",
+      "name": "@cname",
+      "publishTime": "@date('yyyy-mm-dd HH:mm')",
+      "replyList|0-8": [
+        {
+          "avatarPath": "@image(64x64)",
+          "content": "@sentence(5, 100)",
+          "id": "935",
+          "name": "@cname",
+          "publishTime": "@date('yyyy-mm-dd HH:mm')"
+        }
+      ]
+    }
+  ]
+}

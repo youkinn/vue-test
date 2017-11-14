@@ -1,0 +1,46 @@
+/**
+ * [淘游助手] 热门礼包接口
+ *
+ * @url /getGiftsList
+ *
+ */
+{
+  "code": 10000,
+  "msg": "",
+  "result|5": [
+    {
+      "id": "14128",
+      "name|1-5": "礼包名称",
+      "isgame": "1",
+      "gameID": "27682",
+      "gameName|1-5": "游戏名称",
+      "typeID": "9",
+      "taoDou": "0",
+      "content": "<p>\u5185\u5bb9\uff1a\u94f6\u5e01100000\uff0c\u6d17\u70bc\u77f3*20\uff0c\u8865\u5929\u77f3*10<\/p>",
+      "remark": "<p>\u5151\u6362\u65b9\u5f0f\uff1a\u767b\u9646\u6e38\u620f\u2014\u2014\u70b9\u51fb\u6e38\u620f\u53f3\u4e0b\u89d2\u201c\u8bbe\u7f6e\u201d\u2014\u2014\u8f93\u5165\u5151\u6362\u7801\uff0c\u70b9\u51fb\u786e\u5b9a\u5373\u5151\u6362\u6210\u529f\u3002<\/p>",
+      "weburl": "",
+      "totalNumber": "999",
+      "lastNumber": "",
+      "usedNumber": "@natural(0, 999)",
+      "startTime": "1498788000",
+      "endTime": "1501323570",
+      "isPublish": "1",
+      "resourceID": "1",
+      "type": "3",
+      "hot": "0",
+      "rankHot": "105",
+      "new": "0",
+      "rankNew": null,
+      "sort": "0",
+      "genre": "1",
+      "cDate": "1498731639",
+      "mDate": "1498731639",
+      "sourceName": "\u62d3\u7f8e",
+      "typeName": "H5",
+      "uID": 0,
+      "photograph": "",
+      "picture": "",
+      "image": "@image(140x140)"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+/**
+ * [淘游助手] 热门游戏接口
+ *
+ * @url /getGameList
+ *
+ */
+{
+  "code": 10000,
+  "msg": "",
+  "result|5": [
+    {
+      "imgUrl": "@image(140x140)",
+      "gameName|1-2": "游戏名称",
+      "type": "\u89d2\u8272\u626e\u6f14",
+      "viewNumber": "@natural(0, 99999)",
+      "intro|0-8": "游戏介绍",
+      "gameID": 27682,
+      "direction": 1,
+      "field": 1,
+      "gameType": "4",
+      "downloadUrl": "http:\/\/interface.lly800.com\/Game\/Index\/to_game?gid=27682"
+    }
+  ]
+}

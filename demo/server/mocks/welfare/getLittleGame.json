@@ -1,0 +1,63 @@
+/**
+ * 滚动消息
+ *
+ * @url /getLittleGame
+ *
+ * 参数说明：不需要
+ *
+ */
+{
+  "code": 10000,
+  "msg": "",
+  "result": {
+    "taodou": "56489",
+    "normalGamesStatus": {
+      "status": "@natural(1,3)",
+      "lastTime": "@natural(0,7200)"
+    },
+    "quickGamesStatus": {
+      "status": 1,
+      "lastTime": "@natural(0,1200)"
+    },
+    "normalGames|5": [
+      {
+        "gid": "22",
+        "pid": "18722",
+        "gameName": "@cword(3,10)",
+        "gameTermId": "@string(number, 8, 9)",
+        "gameType": "H5小游戏",
+        "type": "1",
+        "gameInfo": "@cword(5,12)",
+        "gameIcon": "@image(45x45)",
+        "gameUrl": "tao-game/games/shankediguo?gid=22",
+        "players": [
+          {
+            "username": "淘游_***",
+            "score": "260",
+            "taodou": 3000,
+            "rank": 1,
+            "timestamp": "2017-09-13 14:29:40"
+          }
+        ],
+        "userStatus": 1,
+        "userGet": 3000,
+        "currentRank": "1"
+      }
+    ],
+    "quickGames|5": [
+      {
+        "gid": "20",
+        "pid": "18730",
+        "gameName": "@cword(3,10)",
+        "gameTermId": "@string(number, 8, 9)",
+        "gameType": "H5小游戏",
+        "type": "2",
+        "gameInfo": "@cword(5,12)",
+        "gameIcon": "@image(45x45)",
+        "gameUrl": "tao-game/games/xhrtt?gid=20",
+        "userStatus": 0,
+        "currentRank":null
+      }
+    ]
+  }
+}

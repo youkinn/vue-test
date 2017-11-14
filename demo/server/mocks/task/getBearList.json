@@ -1,0 +1,26 @@
+/**
+ * [淘游助手] 游戏任务
+ *
+ * @url /getBearList
+ *
+ * 参数说明：
+ *
+ */
+
+{
+  "code": 10000,
+  "result|10": [{
+    "content": "@ctitle(8,30)",
+    "count": "@natural(0,50)",
+    "endTime": "@natural(1550000000, 1600000000)",
+    "id": "91",
+    "isComplete": 1,
+    "picPath": "@image(90x90)",
+    "reward": "@ctitle(3, 20)",
+    "startTime": "1499845957",
+    "time": 13219202,
+    "title": "@ctitle(6,20)",
+    "total": "@natural(80, 100)",
+    "url": "http://1.lly800.com/#/tao-you/game-center/game-details/27669"
+  }]
+}

@@ -1,0 +1,25 @@
+/**
+ * [淘游助手] 轮播图接口
+ *
+ * @url /getSwiperList
+ *
+ */
+{
+  "code": 10000,
+  "msg": "",
+  "result|5": [
+    {
+      "id": "514",
+      "name": "\u8d85\u4eba\u5b88\u536b2-0831",
+      "url": "\/Game\/Index\/to_game?gid=27668",
+      "sort": "6",
+      "type": "4",
+      "cDate": "1504171496",
+      "mIDType": "0",
+      "mID": "",
+      "imgUrl": "http:\/\/image.lly800.com\/goods\/20170831\/1504171491451809.jpg",
+      "link": "\/Game\/Index\/to_game?gid=27668",
+      "publishTime": "2017-08-31 17:24"
+    }
+  ]
+}

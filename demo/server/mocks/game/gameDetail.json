@@ -1,0 +1,62 @@
+/**
+ * [淘游助手] 游戏中心游戏详情
+ *
+ * @url /getGameInfo
+ *
+ * 参数说明：
+ *
+ */
+
+{
+  "code": 10000,
+  "result": {
+    "link": "/game-intro/@id",
+    "name|1": "@cname",
+    "publishTime": "@date('yyyy-mm-dd HH:mm')",
+    "version": "@natural(1, 10)",
+    "sort|+1": 1,
+    "type|1": [1, 2, 3, 4],
+    "url": "/game-intro/@id",
+    "cDate":"@date('yyyy-mm-dd HH:mm')",
+    "abstract": "@csentence(8, 30)",
+    "alias": null,
+    "averageScore": "1.0",
+    "category": "角色扮演",
+    "company": "杭州九翎网络科技有限公司",
+    "direction": "1",
+    "downNumber": 2587,
+    "flat": "1",
+    "flatname": "安卓",
+    "gameBack": "http://image.lly800.com/",
+    "gameBackgroundUrl": null,
+    "gameID|+1": "27687",
+    "gameIcon": "@image(140x140)",
+    "gameIntro": "<p>《传奇来了H5》@csentence(30, 300)</p>",
+    "gameName": "@ctitle(4, 10)",
+    "gameSize": "0",
+    "gameUrl": "http://interface.lly800.com/Game/Index/to_game?gid=27687",
+    "imgUrl|2-5":["@image(533x800)"],
+    "similar|2-5": [
+      {
+        "id": "@natural(10000,20000)",
+        "name": "@ctitle(4, 10)",
+        "viewNumber": "@natural(10, 100000)",
+        "abstract": "@csentence(10, 30)",
+        "fileSize": "0",
+        "categoryID": "23",
+        "field": "1",
+        "direction": "1",
+        "category": "角色扮演",
+        "gameIcon": "@image(45x45)",
+        "gameUrl": "http://interface.lly800.com/Game/Index/to_game?gid=27702"
+      }
+    ],
+    "payinfo": {
+      "alipay": 1,
+      "bank": 1,
+      "taobi": 1,
+      "wechat": 1
+    }
+  }
+}
+

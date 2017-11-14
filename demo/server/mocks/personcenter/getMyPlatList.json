@@ -1,0 +1,21 @@
+/**
+ * [淘游助手] 游戏任务
+ *
+ * @url /getMyPlatList
+ *
+ * 参数说明：
+ *
+ */
+{
+  "code": 10000,
+  "count": "10",
+  "list|10": [
+    {
+      "code": "@natural(100000,999999)",
+      "image": "@image(50x50)",
+      "title": "@cparagraph( 2, 20 )",
+      "desc": "@cparagraph( 2, 20 )",
+      "status": 3
+    }
+  ]
+}

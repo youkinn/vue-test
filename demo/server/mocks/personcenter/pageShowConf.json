@@ -1,0 +1,25 @@
+/**
+ * [淘游助手] 获取展示哪几种支付方式
+ *
+ * @url /pageShowConf
+ *
+ * 参数说明：
+ *
+ */
+
+{
+  "code": 10000,
+  "msg": "",
+  "result":{
+    "payinfo": {
+      "alipay": 1,
+      "bank": 1,
+      "cDate": 0,
+      "id": 1,
+      "isTicket": 1,
+      "mID": 0,
+      "taobi": 1,
+      "wechat": 1
+    }
+  }
+}

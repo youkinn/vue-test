@@ -1,0 +1,15 @@
+/**
+ * 滚动消息
+ *
+ * @url /getScrollMsg
+ *
+ * 参数说明：不需要
+ *
+ */
+
+{
+  "code": 10000,
+  "result|10": [
+    {"title": "@ctitle(12, 100)", "url": "tao-you/our-game-intro/21?type=2"}
+  ]
+}
